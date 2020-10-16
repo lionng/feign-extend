@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="feign-extend" />
         <module name="eureka-server" />
         <module name="feign-inherit-api" />
-        <module name="feign-inherit-consume" />
-        <module name="feign-inherit-provide" />
         <module name="feignextend" />
+        <module name="feign-inherit-provide" />
+        <module name="feign-inherit-consume" />
       </profile>
     </annotationProcessing>
   </component>
